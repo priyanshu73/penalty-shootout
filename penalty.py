@@ -48,7 +48,7 @@ overr_font = pygame.font.Font('freesansbold.ttf',32)
 textx = 600
 texty = 10
 textxx = 10
-texty = 11
+texty = 10
 #game over and scores
 def show_score(x,y):
     score = font.render("SCORE: " + str(score_value),True,(255,255,255))
